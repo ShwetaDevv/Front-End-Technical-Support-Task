@@ -7,13 +7,40 @@ body {
     height: 100vh;
     background-color: #f5f5f5;
 }
+
 .container {
     background: white;
     padding: 20px;
     border-radius: 10px;
     width: 350px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        
 }
+
+.bundle-save {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px auto;
+    width: fit-content;
+}
+
+.bundle-save p {
+    color: #2c704b; /* Adjust the color to match */
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.bundle-save span {
+    flex-grow: 1;
+    height: 1px;
+    width: 10rem;
+    background-color: rgb(136, 134, 134);
+    max-width: 6rem;
+}
+
 
 .a {
     text-align: center;
@@ -43,14 +70,13 @@ body {
 
 .pair-price {
     display: grid;
-    gap: 10px; /* Space between "1 Pair" and "DKK 195.00" */
+    gap: 10px; 
     font-size: 16px;
     font-weight: bold;
     margin: 0;
 }
 
 .discount {
-    
     font-weight: bold;
 }
 
